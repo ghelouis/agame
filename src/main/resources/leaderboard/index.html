@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Agame Leaderboard</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <h1>Leaderboard</h1>
+    <div id="chart-container"> <canvas id="chart"></canvas> </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Score</th>
+                <th>Max challenge</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <span class="footer" id="state"></span>
+    <button class="footer" onclick="start()">Start</button>
+    <button class="footer" onclick="pause()">Pause</button>
+    <script src="Chart.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html> 
